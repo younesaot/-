@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الصور</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📸 معرض الصور البسيط</h1>
+    
+    <div class="gallery">
+        <img src="ChatGPT Image 3 أبريل 2025، 01_59_50 ص.png" alt="صورة 1">
+        <img src="ChatGPT Image 3 أبريل 2025، 01_57_54 ص.png" alt="صورة 2">
+        <img src="ChatGPT Image 3 أبريل 2025، 01_41_34 ص.png" alt="صورة 3">
+      
+    
+    </div>
+
+</body>
+</html>
